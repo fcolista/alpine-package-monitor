@@ -1,0 +1,5 @@
+services:
+  alpine-package-monitor:
+    build: .
+    volumes:
+      - ./config.yaml:/app/config.yaml
