@@ -1,0 +1,15 @@
+aports_repo_url: "https://gitlab.alpinelinux.org/alpine/aports.git"
+aports_dir: "./aports"
+maintainer: "Your Name <your.email@example.com>"
+release_monitoring_api_url: "https://release-monitoring.org/api/v2/projects/"
+api_key: "your_api_key_here"
+distribution: "alpine"
+# Optional: Telegram bot configuration
+# telegram_bot_token: "your_telegram_bot_token"
+# telegram_chat_id: "your_telegram_chat_id"
+# Additional settings
+# Optional :
+# check_interval_days:
+# if set to 0 or not set, defaults to 0. It always check for new versions
+# otherwise, it checks after X days set
+check_interval_days: 0
